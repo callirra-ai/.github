@@ -1,4 +1,4 @@
-# Callirra ✦ One key, every model
+﻿# Callirra ✦ One key, every model
 
 **AI image · video generation, unified.** Callirra brings top image and video models into one OpenAI-compatible platform with transparent credits, Prompt Studio templates, and an open developer ecosystem.
 
@@ -67,10 +67,6 @@ python3 scripts/callirra_api.py setup-api-key sk-cal-xxxxxxxx
 | [awesome-minimax-h3](https://github.com/callirra-ai/awesome-minimax-h3) | MiniMax H3 |
 | [awesome-nano-banana-pro](https://github.com/callirra-ai/awesome-nano-banana-pro) | Nano Banana |
 | [awesome-gpt-image-2](https://github.com/callirra-ai/awesome-gpt-image-2) | GPT Image 2 |
-| [awesome-kling-3](https://github.com/callirra-ai/awesome-kling-3) | Kling 3.0 |
-| [awesome-veo-3.1](https://github.com/callirra-ai/awesome-veo-3.1) | Veo 3.1 |
-| [awesome-flux-2](https://github.com/callirra-ai/awesome-flux-2) | FLUX |
-| [awesome-sora-2](https://github.com/callirra-ai/awesome-sora-2) | Sora 2 |
 
 ## Models you can access
 
