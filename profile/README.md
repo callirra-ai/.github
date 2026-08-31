@@ -1,22 +1,80 @@
 # Callirra ✦ One key, every model
 
-**AI image · video generation, unified.** Callirra is a multi-model media
-platform — bring your own prompts, pick any top model (Seedance 2.5, Nano Banana,
-Kling 3.0, GPT Image 2…), pay with one credit system.
+**AI image · video generation, unified.** Callirra brings top image and video models into one OpenAI-compatible platform with transparent credits, Prompt Studio templates, and an open developer ecosystem.
 
-> 🚧 Site coming soon — [callirra.com](https://callirra.com?utm_source=github-org)
+> 🚧 Website coming soon — [callirra.com](https://callirra.com?utm_source=github-org)
 
 ## What we ship here
 
+### Developer tools
+
 | Repo | What it is |
 |---|---|
-| [skill](https://github.com/callirra-ai/skill) | Claude Code / Codex media-generation skill |
-| [cli](https://github.com/callirra-ai/cli) | Generate images & videos from your terminal |
+| [skill](https://github.com/callirra-ai/skill) | AI agent skill for Claude Code / Codex / Cursor |
+| [cli](https://github.com/callirra-ai/cli) | Generate image/video and manage tasks from terminal |
+| [mcp](https://github.com/callirra-ai/mcp) | MCP server so AI agents can call Callirra natively |
+
+### Full public creative knowledge base
+
+The **Skill package includes the complete Callirra Creative Knowledge Base**:
+
+- 8 categories
+- 110 curated resources
+- 39 style keywords
+- cinematic craft vocabulary
+
+It powers art / design / image / video workflows and is also available through:
+
+```text
+GET /api/v1/creative
+```
+
+### Professional prompt & template library
+
+On [callirra.com](https://callirra.com?utm_source=github-org) you can use **Prompt Studio** — a growing library of professional prompt templates covering:
+
+- cinematic city/landscape
+- product hero / e-commerce
+- fashion editorial / poster cover
+- food / pet / human mood
+- tech future / anime / neon cyber / minimal brand
+- and more image/video production scenes
+
+These are designed for real design, advertising, e-commerce and short-video workflows.
+
+## One-click start
+
+```bash
+# CLI
+npm install -g @callirra/cli
+callirra setup-api-key sk-cal-xxxxxxxx
+
+# MCP
+npm install -g @callirra/mcp
+export CALLIRRA_API_KEY=sk-cal-xxxxxxxx
+callirra-mcp
+
+# Skill
+npx skills add callirra-ai/skill --all
+python3 scripts/callirra_api.py setup-api-key sk-cal-xxxxxxxx
+```
+
+## Community hubs
+
+| Repo | Model |
+|---|---|
+| [awesome-seedance-2.5](https://github.com/callirra-ai/awesome-seedance-2.5) | Seedance 2.5 |
+| [awesome-minimax-h3](https://github.com/callirra-ai/awesome-minimax-h3) | MiniMax H3 |
+| [awesome-nano-banana-pro](https://github.com/callirra-ai/awesome-nano-banana-pro) | Nano Banana |
+| [awesome-gpt-image-2](https://github.com/callirra-ai/awesome-gpt-image-2) | GPT Image 2 |
+| [awesome-kling-3](https://github.com/callirra-ai/awesome-kling-3) | Kling 3.0 |
+| [awesome-veo-3.1](https://github.com/callirra-ai/awesome-veo-3.1) | Veo 3.1 |
+| [awesome-flux-2](https://github.com/callirra-ai/awesome-flux-2) | FLUX |
+| [awesome-sora-2](https://github.com/callirra-ai/awesome-sora-2) | Sora 2 |
 
 ## Models you can access
 
-Seedance 2.5 · Seedream 5 · Nano Banana · Kling 3.0 · MiniMax H3 · GPT Image 2 · FLUX ·
-Happy Horse 1.0 · Veo 3.1 …
+Seedance 2.5 · Seedream 5 · Nano Banana · Kling 3.0 · MiniMax H3 · GPT Image 2 · FLUX · Happy Horse 1.0 · Veo 3.1 · Sora 2 …
 
 ## Pricing at a glance
 
@@ -24,27 +82,8 @@ Happy Horse 1.0 · Veo 3.1 …
 - One-time credit packs (12-month validity)
 - Optional subscriptions (monthly / quarterly / yearly)
 
-## Get started
-
-```bash
-# CLI
-npm install -g @callirra/cli
-
-# MCP
-npm install -g @callirra/mcp
-export CALLIRRA_API_KEY=sk-cal-xxxxxxxx
-callirra-mcp
-
-# Skill (Claude Code / Codex / Cursor)
-npx skills add callirra-ai/skill --all
-```
-
-The Skill includes a full curated Creative Knowledge Base for art, image and video workflows — 110 resources, 8 categories, 39 style keywords.
-
 ## Connect
 
 - 🌐 [Website](https://callirra.com?utm_source=github-org)
 - 🐦 [Twitter / X](https://x.com/callirra_ai)
 - ✉️ support@callirra.com
-
-<!-- Badges: add your own once the site is live -->
