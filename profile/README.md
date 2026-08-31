@@ -24,6 +24,23 @@ Happy Horse 1.0 · Veo 3.1 …
 - One-time credit packs (12-month validity)
 - Optional subscriptions (monthly / quarterly / yearly)
 
+## Get started
+
+```bash
+# CLI
+npm install -g @callirra/cli
+
+# MCP
+npm install -g @callirra/mcp
+export CALLIRRA_API_KEY=sk-cal-xxxxxxxx
+callirra-mcp
+
+# Skill (Claude Code / Codex / Cursor)
+npx skills add callirra-ai/skill --all
+```
+
+The Skill includes a full curated Creative Knowledge Base for art, image and video workflows — 110 resources, 8 categories, 39 style keywords.
+
 ## Connect
 
 - 🌐 [Website](https://callirra.com?utm_source=github-org)
