@@ -1,29 +1,29 @@
-﻿# Callirra ✦ One key, every model
+# Callirra ✦ One key, every model
 
 **AI image · video generation, unified.** Callirra brings top image and video models into one OpenAI-compatible platform with transparent credits, Prompt Studio templates, and an open developer ecosystem.
 
-> 🚧 Website coming soon — [callirra.com](https://callirra.com?utm_source=github-org)
-
 ## What we ship here
 
-### Developer tools
+### OpenAI-compatible media API
 
-| Repo | What it is |
-|---|---|
-| [skill](https://github.com/callirra-ai/skill) | AI agent skill for Claude Code / Codex / Cursor |
-| [cli](https://github.com/callirra-ai/cli) | Generate image/video and manage tasks from terminal |
-| [mcp](https://github.com/callirra-ai/mcp) | MCP server so AI agents can call Callirra natively |
+One API key for image and video generation:
+
+```text
+GET  https://api.callirra.com/v1/models
+POST https://api.callirra.com/v1/images/generations
+POST https://api.callirra.com/v1/videos
+```
 
 ### Full public creative knowledge base
 
-The **Skill package includes the complete Callirra Creative Knowledge Base**:
+The Callirra Creative Knowledge Base contains:
 
 - 8 categories
 - 110 curated resources
 - 39 style keywords
 - cinematic craft vocabulary
 
-It powers art / design / image / video workflows and is also available through:
+It is available through the public API:
 
 ```text
 GET /api/v1/creative
@@ -42,44 +42,18 @@ On [callirra.com](https://callirra.com?utm_source=github-org) you can use **Prom
 
 These are designed for real design, advertising, e-commerce and short-video workflows.
 
-## One-click start
-
-```bash
-# CLI
-npm install -g @callirra/cli
-callirra setup-api-key sk-cal-xxxxxxxx
-
-# MCP
-npm install -g @callirra/mcp
-export CALLIRRA_API_KEY=sk-cal-xxxxxxxx
-callirra-mcp
-
-# Skill
-npx skills add callirra-ai/skill --all
-python3 scripts/callirra_api.py setup-api-key sk-cal-xxxxxxxx
-```
-
-## Community hubs
-
-| Repo | Model |
-|---|---|
-| [awesome-seedance-2.5](https://github.com/callirra-ai/awesome-seedance-2.5) | Seedance 2.5 |
-| [awesome-minimax-h3](https://github.com/callirra-ai/awesome-minimax-h3) | MiniMax H3 |
-| [awesome-nano-banana-pro](https://github.com/callirra-ai/awesome-nano-banana-pro) | Nano Banana |
-| [awesome-gpt-image-2](https://github.com/callirra-ai/awesome-gpt-image-2) | GPT Image 2 |
-
 ## Models you can access
 
-Seedance 2.5 · Seedream 5 · Nano Banana · Kling 3.0 · MiniMax H3 · GPT Image 2 · FLUX · Happy Horse 1.0 · Veo 3.1 · Sora 2 …
+Seedance 2.5 · Seedance 2.0 · Kling 3.0 · MiniMax H3 · Nano Banana 2 · GPT Image 2 · Seedream 5 · Veo 3.1 · Gemini Omni · Grok Imagine · HappyHorse 1.0 · Hailuo · Z-Image
 
 ## Pricing at a glance
 
-- Free weekly credits for new and active users
+- Free weekly credits for Free users
 - One-time credit packs (12-month validity)
 - Optional subscriptions (monthly / quarterly / yearly)
 
 ## Connect
 
 - 🌐 [Website](https://callirra.com?utm_source=github-org)
-- 🐦 [Twitter / X](https://x.com/callirra_ai)
+- 🐦 [Twitter / X](https://x.com/Callirra)
 - ✉️ support@callirra.com
