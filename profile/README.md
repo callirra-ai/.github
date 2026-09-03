@@ -1,6 +1,6 @@
 # Callirra ✦ One key, every model
 
-**AI image · video generation, unified.** Callirra brings top image and video models into one OpenAI-compatible platform with transparent credits, Prompt Studio templates, and an open developer ecosystem.
+**Callirra is not another AI generator.** It is an all-in-one image and video creation platform that combines leading AI models, unified credit billing, an OpenAI-compatible API, a professional Prompt Studio, AI content safety, and Waffo Pancake MoR payments in a single product. Creators can go from one sentence to a polished image or video in one workspace; developers can access Seedance, Kling, MiniMax, Nano Banana, GPT Image and more through one `sk-cal-` API key. Callirra handles credits, refunds, subscriptions, moderation, and payment compliance so you can focus on creating and building instead of stitching together models, billing, and legal infrastructure.
 
 ## What we ship here
 
